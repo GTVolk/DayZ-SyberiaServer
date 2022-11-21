@@ -1,6 +1,6 @@
 {
     "m_adminUids": [
-        
+        "76561198007891584"
     ],
     "m_spawnerCategories": [
         { "m_name": "Items", "m_preffix": "CfgVehicles", "m_class": "Inventory_Base" },

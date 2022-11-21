@@ -17,6 +17,8 @@ namespace SyberiaWebPanel
 
         public ClientConfig m_clientConfig { private set; get; }
 
+        public CraftingConfig m_craftingConfig { private set; get; }
+
         public AdminToolOptions m_adminToolOptions { private set; get; }
 
         [ScriptObjectSerializableAttribute]
@@ -36,27 +38,6 @@ namespace SyberiaWebPanel
         [ScriptObjectSerializableAttribute]
         public ZonesConfig m_zonesConfig { private set; get; }
 
-        [ScriptObjectSerializableAttribute]
-        public CraftingConfig m_craftingConfig {
-            get
-            {
-                if (m_crafting_instance != null)
-                {
-                    return m_crafting_instance;
-                }
-
-                var craftingConfigPath = Path.Combine(m_configDir, "CraftingSettings.json");
-                if (File.Exists(craftingConfigPath))
-                {
-                    m_crafting_instance = JsonConvert.DeserializeObject<CraftingConfig>(File.ReadAllText(craftingConfigPath));
-                    return m_crafting_instance;
-                }
-                
-                throw new ApplicationException("Crafting settings not found.");
-            }
-        }
-        private CraftingConfig m_crafting_instance = null;
-
         public GameConfig(string gameDir)
         {
             m_configDir = Path.Combine(gameDir, "profiles", "Syberia");
@@ -72,6 +53,10 @@ namespace SyberiaWebPanel
             var clientConfigPath = Path.Combine(m_configDir, "ClientConfig.json");
             if (File.Exists(clientConfigPath)) m_clientConfig = JsonConvert.DeserializeObject<ClientConfig>(File.ReadAllText(clientConfigPath));
             else m_clientConfig = new ClientConfig().InitializeDefault();
+
+            var craftingConfigPath = Path.Combine(m_configDir, "CraftingSettings.json");
+            if (File.Exists(craftingConfigPath)) m_craftingConfig = JsonConvert.DeserializeObject<CraftingConfig>(File.ReadAllText(craftingConfigPath));
+            else m_craftingConfig = new CraftingConfig().InitializeDefault();
 
             var customLoadoutsPath = Path.Combine(m_configDir, "CustomLoadouts.json");
             if (File.Exists(customLoadoutsPath)) m_customLoadouts = JsonConvert.DeserializeObject<List<CustomLoadout>>(File.ReadAllText(customLoadoutsPath));
@@ -165,9 +150,9 @@ namespace SyberiaWebPanel
                 File.WriteAllText(Path.Combine(m_configDir, $"Group_{name}.json"), JsonConvert.SerializeObject(faction, saveSettings));
             }
 
-            if (m_crafting_instance != null)
+            if (m_craftingConfig != null)
             {
-                File.WriteAllText(Path.Combine(m_configDir, "CraftingSettings.json"), JsonConvert.SerializeObject(m_crafting_instance, saveSettings));
+                File.WriteAllText(Path.Combine(m_configDir, "CraftingSettings.json"), JsonConvert.SerializeObject(m_craftingConfig, saveSettings));
             }
         }
 

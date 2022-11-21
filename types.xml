@@ -1,0 +1,4269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<types>
+	<!-- Peredoz -->
+    <type name="AmpouleAlcohol">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleHihlofos">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleCypermetrin">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleDiazinon">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleArsenic">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="InjectorNovichek">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <value name="Tier4"/>
+	</type>
+
+	<!-- Painkiller 1 -->
+    <type name="TabletsAnalgin">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsNaiz">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsAertal">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsNimesil">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsPentalgin">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsMovalis">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsCytramon">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsParacetamol"> <!--Antibiotics 1-->
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsIbuprofen"> <!--Antibiotics 1-->
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsNurofen"> <!--Antibiotics 1-->
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsNoopept"> <!--ConcussionHeal-->
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+	</type>
+
+<!-- Painkiller 2 -->
+    <type name="AmpouleNovocain">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleIrineks">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleNimesulid">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleKetoprofen">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpoulePropanidid">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleGexobarbital">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+
+<!-- Painkiller 3 -->
+    <type name="AmpoulePropofol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleTiopental">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleKetamin">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleSodiumOxybutirate">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="InjectorPromedol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
+<!-- StomachHeal 1 -->
+    <type name="TabletsCharcoal">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsMezimForte">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsZerukal">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsNifuroksazid">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsPolisorb">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsKarbopekt">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsEnterofuril">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsErsefuril">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsSalofalk">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsFtalazol">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsMesalazin">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+
+<!-- StomachHeal 2 -->
+    <type name="AmpouleMetoclopramid">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleZerukal">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleKetorol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleDiklofenak">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleHeptral">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="InjectorKetorol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
+<!-- Antibiotics 1 -->
+    <type name="TabletsTrihopol">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsCyprolet">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="TabletsAmibaktam">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+
+<!-- Antibiotics 2 -->
+    <type name="TabletsAmoksivan">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsTetracycline">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsAmoksiklav">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsAmpicylin">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsPiperacylin">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleCylaspen">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleGrimipenem">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleZeftriaxon">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleErytromicyn">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleFlemoclav">  <!-- Sepsis 1 -->
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleOcsacylin">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleImipenem"> <!-- Sepsis 1 -->
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+
+<!-- Antibiotics 3 -->
+    <type name="AmpouleAmoksivan"> <!-- Sepsis 1 -->
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="InjectorAmoksivan"> <!-- Sepsis 1 -->
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
+<!-- Sepsis 1 -->
+    <type name="InjectorTopoizomeraza">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
+<!-- Virus Z -->
+    <type name="AmpouleZivirol">
+        <nominal>15</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>10</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+    <type name="InjectorZivirol">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+
+<!--ConcussionHeal-->
+    <type name="AmpouleMeksidol">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleActovegin">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleNeiroks">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="InjectorNeiroks">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+
+<!-- Hematoma -->
+    <type name="AmpoulePeklitakcel">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="SalveKapsikam">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+    <type name="SalveFinalgon">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Sybmed"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="SalveViprosal">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <usage name="Sybmed"/>
+	</type>
+
+<!-- BloodHemostatic -->
+    <type name="AmpouleNonacogAlpha">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleAminokaprolSulfat">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleVikasol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleEtamzilat">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="TabletsVikasol">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="TabletsDycinon">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+
+<!-- BloodHematopoiesis -->
+    <type name="AmpoulePerftoran">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleMaltofer">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="TabletsIrovit">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="TabletsTardiferon">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="TabletsHeferol">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+
+<!-- BloodHemostatic n BloodHematopoiesis -->
+    <type name="AmpouleErytropoenin">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="InjectorErytropoenin">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+    <type name="TabletsSorbiferDurulis">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+
+<!-- Adrenalin -->
+    <type name="AmpouleAdrenalin05">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleAdrenalin10">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="AmpouleAdrenalin30">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+    <type name="InjectorEpipen">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+
+<!-- Food -->
+    <type name="SodaCan_MadBull">
+        <nominal>10</nominal>
+        <lifetime>31200</lifetime>
+        <restock>300</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+
+<!-- Syringe -->
+	<type name="SyringeEmpty">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+    </type>
+	<type name="SyringeFull">
+       <lifetime>7200</lifetime>
+       <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+
+<!-- BandageHemostatic -->
+    <type name="BandageHemostatic">
+        <nominal>8</nominal>
+        <lifetime>51200</lifetime>
+        <restock>1200</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+        <usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+   </type>
+
+<!-- SurgicalKit -->
+	<type name="SurgicalKit">
+		<nominal>4</nominal>
+		<lifetime>51200</lifetime>
+		<restock>1200</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="Stethoscope">
+		<nominal>8</nominal>
+		<lifetime>51200</lifetime>
+		<restock>1200</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+	</type>
+	<type name="MedContainerSmall">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+	</type>
+	<type name="MedContainerMedium">
+		<nominal>2</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+	<type name="MedContainerLarge">
+		<nominal>1</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
+
+<!-- Zones Tools n Drugs -->
+	<type name="GasMask_Filter">
+		<nominal>0</nominal>
+		<lifetime>5600</lifetime>
+        <restock>3600</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <tag name="shelves"/>
+		<usage name="Firefighter"/>
+		<usage name="Police"/>
+        <usage name="Helisov"/>
+        <usage name="Helinato"/>
+	</type>
+	<type name="TabletsPotassiumIodide">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="TabletsPotassiumHexacyanoferrate">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="TabletsCystamine">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="TabletsB190">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="TabletsMexamine">
+		<nominal>2</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="AmpoulePentacin">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>0</min>
+		<quantmin>0</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="AmpouleCarboxyme">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>0</min>
+		<quantmin>0</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+	<type name="InjectorRadioprotector">
+		<nominal>1</nominal>
+		<lifetime>7200</lifetime>
+		<restock>7200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="shelves"/>
+		<usage name="Medic"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<usage name="Helisov"/>
+		<usage name="Helinato"/>
+	</type>
+
+<!-- AntiDepressants -->
+    <type name="TabletsVenlafaxine">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsAmitriptyline">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsActaparoxetine">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsAdepress">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="TabletsAgteminol">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+	</type>
+    <type name="AmpouleAmitriptyline ">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleActaparoxetine ">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+    <type name="AmpouleMetralindol">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+	</type>
+	<!-- Tools -->
+    <type name="SleepingBag_Blue">
+        <nominal>5</nominal>
+        <lifetime>604800</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Tenement"/>
+		<tag name="hunting" />
+		<tag name="farm" />
+		<tag name="fishing" />
+    </type>
+    <type name="SleepingBag_Woodland">
+        <nominal>5</nominal>
+        <lifetime>604800</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Military"/>
+    </type>
+    <type name="SleepingBagPlaced_Blue">
+        <lifetime>604800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+    <type name="SleepingBagPlaced_Woodland">
+        <lifetime>604800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+	<type name="ItemPDA">
+		<nominal>0</nominal>
+		<lifetime>86400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Helinato"/>
+		<usage name="Helisov"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
+		<value name="Tier5"/>
+	</type>
+
+		<!-- Rotten Food -->
+    <type name="BakedBeansCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="CatFoodCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="DogFoodCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="PeachesCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="PorkCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="SardinesCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="SpaghettiCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="TacticalBaconCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="TunaCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+    <type name="UnknownFoodCan_OpenedRotten">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>1</quantmin>
+        <quantmax>5</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="floor"/>
+    </type>
+
+		<!-- Books -->
+	<type name="BookBible">
+        <nominal>2</nominal>
+        <lifetime>86400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheWarOfTheWorlds">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAroundTheWorldIn80Days">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookCrimeAndPunishment">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheMetamorphosis">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheRaven">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheArtOfWar">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRobinsonCrusoe">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRussian">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRussianCheatSheet">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookThePictureOfDorianGray">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookThePitAndThePendulum">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheTimeMachine">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCountryOfTheBlind">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookBilaNemoc">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookYouth">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookVerwandlung">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheJungleBook">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheBrothersKaramazov">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCallOfCthulhu">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheShunnedHouse">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheHoundOfTheBaskervilles">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAndersen">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTonyAndTheBeetles">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCosmicComputer">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookATravelerInTime">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheVariableMan">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheOutlet">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheBarrier">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheDesertOfWheat">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookFlyingURanch">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookCassidysRustlerRoundUp">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLonesomeLand">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTrailin">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRonickyDoone">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookBettyZane">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookATexasMatchmaker">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheThunderBird">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookBlackJack">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheLastTrail">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookSelectedStories">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheHeritageOfTheSioux">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDesertGold">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheHiddenChildren">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheLastOfThePlainsmen">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookGunmansReckoning">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookSkyrider">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookSpinifexAndSand">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookSunsetPass">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCaveOfGold">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheDayOfTheBeast">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheQuirt">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAVoyageToArcturus">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookWealthOfNations">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAndersensFairyTales">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookBlackBeauty">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookBuddenbrooks">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDeadSouls">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookErewhon">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookFatherGoriot">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookGreatExpectations">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookGulliversTravels">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookHeartOfDarkness">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookHerland">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookIvanhoe">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookKidnapped">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLaChartreuseDeParme">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLordJim">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookMadameBovary">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookNostromo">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookNaturalSelection">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheMetamorphosesOfOvid">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookMobyDick">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookKingLear">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLaDbcle">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCanterburyTales">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheRightsOfWoman">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookToTheInteriorOfTheEarth">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookNjalsSaga">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheTrial">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDonQuixote">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookPhilosophiaeNaturalis">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookPrideAndPrejudice">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRasselas">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookScaramouche">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookShe">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookSonsAndLovers">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheCallOfTheWild">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheComingRace">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRobinsonCrusoeAdventures">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheIslandOfDoctorMoreau">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheMahabharataOfKrishna">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheManWhoWasThursday">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookThePossessed">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookThePrisonerOfZenda">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAPrincessOfMars">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookKingSolomonsMines">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookMiddlemarch">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheHouseOfTheSevenGables">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheMonkARomance">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheJustifiedSinner">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheRedBadgeOfCourage">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookADollsHouse">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAfterLondon">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookGilgameshEpic">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAnnaKarenina">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookCandide">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookFaust">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookHinduLiterature">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookHunger">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookJapaneseLiterature">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLeRougeEtLeNoir">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheDecameron">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheGiacomoLeopardi">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookAliceInWonderland">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheScarletPimpernel">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheThreeMusketeers">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheTurnOfTheScrew">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTranslationsOfShakuntala">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTreasureIsland">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookUlysses">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookUncleSilas">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheAeneid">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookWarAndPeace">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookWielandOrTheTransformation">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookWutheringHeights">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookCinqSemainesEnBallon">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDracula">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookMrchenFrKinder">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLesTroisMousquetaires">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDeLorigineDesEspces">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDasNibelungenlied">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookTheLastMan">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookFaustErsterTeil">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLenfer1Of2">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookVoyageAuCentreDeLaTerre">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookRomeoUndJulia">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookFrankenstein">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDeLaTerreLaLune">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookDonQuichotte">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLleMystrieuse">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLaComdieHumaine">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookLesCorneilles">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="Book20000LieuesSousLesMers">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+    <type name="BookThreeMenInABoat">
+        <nominal>2</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="books"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="Village"/>
+    </type>
+</types>
