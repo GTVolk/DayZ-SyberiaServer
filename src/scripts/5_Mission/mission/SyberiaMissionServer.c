@@ -349,7 +349,7 @@ modded class MissionServer
 		if (player)
 		{
 			player.SetAllowDamage(true);
-			player.SetHealth(0.0);
+			player.SetHealth01("GlobalHealth","Health",0);
 		}
 		else if (identity)
 		{
@@ -580,4 +580,24 @@ modded class MissionServer
 			buildingPlugin.LoadLivespaces();
 		}
 	}
+
+	#ifdef NAMALSK_SURVIVAL	
+    protected SyberiaObjectiveZone m_Phoenix_CA_1_SybZone, m_Phoenix_CA_2_SybZone;
+
+    override void ContaminatePhoenix()
+    {
+		m_Phoenix_CA_1_SybZone = SyberiaObjectiveZone.Cast( GetGame().CreateObjectEx( "SyberiaObjectiveZone_Toxic100", Vector( 11899, 17, 7533 ), ECE_NONE ) );
+        m_Phoenix_CA_2_SybZone = SyberiaObjectiveZone.Cast( GetGame().CreateObjectEx( "SyberiaObjectiveZone_Toxic100", Vector( 11899, 36, 7559 ), ECE_NONE ) );
+    }
+
+    override void DecontaminatePhoenix()
+    {
+        super.DecontaminatePhoenix();
+
+        if (m_Phoenix_CA_1_SybZone)
+            GetGame().ObjectDelete( m_Phoenix_CA_1_SybZone );
+        if (m_Phoenix_CA_2_SybZone)
+            GetGame().ObjectDelete( m_Phoenix_CA_2_SybZone );
+    }
+    #endif
 };
